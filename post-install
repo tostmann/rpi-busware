@@ -3,5 +3,6 @@ if [ -d ${FW_REPOLOCAL}/firmware ]; then
         cp -R "${FW_REPOLOCAL}/firmware/"* /lib/firmware/
 fi
 
-sed 's/ttyAMA0/null/' /boot/cmdline.txt > /boot/cmdline.txt
-sed '/getty -L ttyAMA0/d' /etc/inittab > /etc/inittab
+echo "     freeing ttyAMA0"
+sed -i.bak 's/ttyAMA0/null/' /boot/cmdline.txt > /boot/cmdline.txt
+sed -i.bak '/getty -L ttyAMA0/d' /etc/inittab > /etc/inittab
