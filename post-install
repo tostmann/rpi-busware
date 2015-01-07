@@ -4,5 +4,5 @@ if [ -d ${FW_REPOLOCAL}/firmware ]; then
 fi
 
 echo "     freeing ttyAMA0"
-sed -i.bak 's/ttyAMA0/null/' /boot/cmdline.txt > /boot/cmdline.txt
-sed -i.bak '/getty -L ttyAMA0/d' /etc/inittab > /etc/inittab
+sed -i 's/ttyAMA0/null/' /boot/cmdline.txt
+sed -i '/getty -L ttyAMA0/d' /etc/inittab
