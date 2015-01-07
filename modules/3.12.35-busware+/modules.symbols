@@ -787,7 +787,6 @@ alias symbol:cx231xx_send_gpio_cmd cx231xx
 alias symbol:dib0090_dcc_freq dib0090
 alias symbol:nf_conntrack_helper_register nf_conntrack
 alias symbol:o2hb_check_node_heartbeating_from_callback ocfs2_nodemanager
-alias symbol:backlight_device_register backlight
 alias symbol:__nf_conntrack_helper_find nf_conntrack
 alias symbol:bio_alloc_mddev md_mod
 alias symbol:lgdt330x_attach lgdt330x
@@ -1187,7 +1186,6 @@ alias symbol:p9dirent_read 9pnet
 alias symbol:ath9k_hw_gettxbuf ath9k_hw
 alias symbol:vb2_ops_wait_prepare videobuf2_core
 alias symbol:ip6_tnl_rcv_ctl ip6_tunnel
-alias symbol:backlight_device_unregister backlight
 alias symbol:br_should_route_hook bridge
 alias symbol:fc0013_rc_cal_add fc0013
 alias symbol:snd_pcm_set_sync snd_pcm
@@ -1384,7 +1382,6 @@ alias symbol:ip_tunnel_delete_net ip_tunnel
 alias symbol:snd_info_get_line snd
 alias symbol:p9_idpool_destroy 9pnet
 alias symbol:dib0070_ctrl_agc_filter dib0070
-alias symbol:backlight_force_update backlight
 alias symbol:gspca_coarse_grained_expo_autogain gspca_main
 alias symbol:usb_wwan_tiocmset usb_wwan
 alias symbol:ath9k_hw_get_txq_props ath9k_hw
@@ -1549,7 +1546,6 @@ alias symbol:p9_client_clunk 9pnet
 alias symbol:usb_serial_handle_sysrq_char usbserial
 alias symbol:garp_request_leave garp
 alias symbol:nf_ct_tcp_seqadj_set nf_conntrack
-alias symbol:devm_backlight_device_unregister backlight
 alias symbol:vb2_create_bufs videobuf2_core
 alias symbol:cdrom_check_events cdrom
 alias symbol:snd_device_free snd
@@ -2843,7 +2839,6 @@ alias symbol:xt_rateest_lookup xt_RATEEST
 alias symbol:rt2800_ampdu_action rt2800lib
 alias symbol:fuse_conn_kill fuse
 alias symbol:hci_suspend_dev bluetooth
-alias symbol:devm_backlight_device_register backlight
 alias symbol:dlm_unregister_eviction_cb ocfs2_dlm
 alias symbol:usb_wwan_port_probe usb_wwan
 alias symbol:synth_buffer_peek speakup

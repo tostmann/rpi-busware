@@ -99,7 +99,30 @@ kernel/crypto/async_tx/async_xor.ko: kernel/crypto/async_tx/async_tx.ko kernel/c
 kernel/crypto/async_tx/async_pq.ko: kernel/crypto/async_tx/async_xor.ko kernel/crypto/async_tx/async_tx.ko kernel/crypto/xor.ko kernel/lib/raid6/raid6_pq.ko
 kernel/crypto/async_tx/async_raid6_recov.ko: kernel/crypto/async_tx/async_tx.ko kernel/lib/raid6/raid6_pq.ko
 kernel/drivers/video/backlight/lcd.ko:
-kernel/drivers/video/backlight/backlight.ko:
+kernel/drivers/video/fbtft/fb_bd663474.ko:
+kernel/drivers/video/fbtft/fb_hx8340bn.ko:
+kernel/drivers/video/fbtft/fb_hx8347d.ko:
+kernel/drivers/video/fbtft/fb_hx8353d.ko:
+kernel/drivers/video/fbtft/fb_ili9320.ko:
+kernel/drivers/video/fbtft/fb_ili9325.ko:
+kernel/drivers/video/fbtft/fb_ili9340.ko:
+kernel/drivers/video/fbtft/fb_ili9341.ko:
+kernel/drivers/video/fbtft/fb_ili9481.ko:
+kernel/drivers/video/fbtft/fb_ili9486.ko:
+kernel/drivers/video/fbtft/fb_pcd8544.ko:
+kernel/drivers/video/fbtft/fb_ra8875.ko:
+kernel/drivers/video/fbtft/fb_s6d02a1.ko:
+kernel/drivers/video/fbtft/fb_s6d1121.ko:
+kernel/drivers/video/fbtft/fb_ssd1289.ko:
+kernel/drivers/video/fbtft/fb_ssd1306.ko:
+kernel/drivers/video/fbtft/fb_ssd1331.ko:
+kernel/drivers/video/fbtft/fb_ssd1351.ko:
+kernel/drivers/video/fbtft/fb_st7735r.ko:
+kernel/drivers/video/fbtft/fb_tinylcd.ko:
+kernel/drivers/video/fbtft/fb_tls8204.ko:
+kernel/drivers/video/fbtft/fb_upd161704.ko:
+kernel/drivers/video/fbtft/fb_watterott.ko:
+kernel/drivers/video/fbtft/fbtft_device.ko:
 kernel/drivers/char/hw_random/bcm2708-rng.ko:
 kernel/drivers/base/regmap/regmap-i2c.ko:
 kernel/drivers/base/regmap/regmap-mmio.ko:
@@ -237,7 +260,7 @@ kernel/drivers/usb/storage/ums-sddr09.ko:
 kernel/drivers/usb/storage/ums-sddr55.ko:
 kernel/drivers/usb/storage/ums-usbat.ko:
 kernel/drivers/usb/misc/adutux.ko:
-kernel/drivers/usb/misc/appledisplay.ko: kernel/drivers/video/backlight/backlight.ko
+kernel/drivers/usb/misc/appledisplay.ko:
 kernel/drivers/usb/misc/cypress_cy7c63.ko:
 kernel/drivers/usb/misc/cytherm.ko:
 kernel/drivers/usb/misc/emi26.ko:
