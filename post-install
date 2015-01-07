@@ -6,3 +6,4 @@ fi
 echo "     freeing ttyAMA0"
 sed -i 's/ttyAMA0/null/' /boot/cmdline.txt
 sed -i '/getty -L ttyAMA0/d' /etc/inittab
+init q
