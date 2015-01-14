@@ -225,6 +225,8 @@ kernel/drivers/net/phy/libphy.ko:
 kernel/drivers/net/phy/mdio-bitbang.ko: kernel/drivers/net/phy/libphy.ko
 kernel/drivers/net/tun.ko:
 kernel/drivers/net/veth.ko:
+kernel/drivers/net/can/can-dev.ko:
+kernel/drivers/net/can/mcp251x.ko: kernel/drivers/net/can/can-dev.ko
 kernel/drivers/net/irda/irda-usb.ko: kernel/net/irda/irda.ko kernel/lib/crc-ccitt.ko
 kernel/drivers/net/irda/stir4200.ko: kernel/net/irda/irda.ko kernel/lib/crc-ccitt.ko
 kernel/drivers/net/irda/mcs7780.ko: kernel/net/irda/irda.ko kernel/lib/crc-ccitt.ko
@@ -361,7 +363,6 @@ kernel/drivers/input/joydev.ko:
 kernel/drivers/input/evdev.ko:
 kernel/drivers/rtc/rtc-bq32k.ko:
 kernel/drivers/rtc/rtc-ds1305.ko:
-kernel/drivers/rtc/rtc-ds1307.ko:
 kernel/drivers/rtc/rtc-ds1374.ko:
 kernel/drivers/rtc/rtc-ds1390.ko:
 kernel/drivers/rtc/rtc-ds1672.ko:
@@ -1227,6 +1228,10 @@ kernel/net/appletalk/appletalk.ko: kernel/net/802/psnap.ko kernel/net/llc/llc.ko
 kernel/net/netrom/netrom.ko: kernel/net/ax25/ax25.ko
 kernel/net/rose/rose.ko: kernel/net/ax25/ax25.ko
 kernel/net/ax25/ax25.ko:
+kernel/net/can/can.ko:
+kernel/net/can/can-raw.ko: kernel/net/can/can.ko
+kernel/net/can/can-bcm.ko: kernel/net/can/can.ko
+kernel/net/can/can-gw.ko: kernel/net/can/can.ko
 kernel/net/irda/irda.ko: kernel/lib/crc-ccitt.ko
 kernel/net/irda/irlan/irlan.ko: kernel/net/irda/irda.ko kernel/lib/crc-ccitt.ko
 kernel/net/irda/irnet/irnet.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko kernel/net/irda/irda.ko kernel/lib/crc-ccitt.ko
